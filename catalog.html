@@ -8,12 +8,12 @@
   <body>
     <header class="main-header">
       <div class="container">
-        <div class="index-logo">
-          <a href="index.html">
-            <img src="img/index-logo.png" alt="Барбершоп «Бородинский»">
-            </a>
-        </div>
           <nav class="main-navigation">
+            <div class="index-logo">
+              <a href="index.html">
+                <img src="img/index-logo.png" alt="Барбершоп «Бородинский»">
+                </a>
+            </div>
             <ul>
               <li>
                 <a href="#">Информация</a>
@@ -39,8 +39,8 @@
     </header>
     <main class="container">
          <div class="means">
-            <h2>Средства для ухода</h2>
-            <nav class="breadcrumbs">
+            <h1>Средства для ухода</h1>
+            <div class="breadcrumbs">
               <ul>
                 <li>
                   <a href="index.html">Главная</a>
@@ -52,11 +52,11 @@
                   <a>Средства для ухода</a>
                 </li>
               </ul>
-            </nav>
+            </div>
         </div>
         <section class="produce-product">
           <h2>Производители</h2>
-            <form action="https://echo.htmlacademy.ru" method="post">
+            <form action="https://echo.htmlacademy.ru" method="get">
               <div class="produce">
                 <label>
                   <input type="checkbox" name="baxter of california">
@@ -104,87 +104,93 @@
             </form>
           </section>
         <section class="main-product">
-          <article>
+            <article>
               <a href="#">
-                <figure>
-                    <img src="img/Baxter of california-1.jpg" width="220" height="165" alt="Baxter of california">
-                </figure>
-                <figcaption>
-                    Набор для путешествий "Baxter of california"
-                </figcaption>
-              </a>
-              <div class="buy-block ">
-                  <b>2900 РУБ.</b>
-                  <a class="btn" href="#">Купить</a>
+                  <div class="picture">
+                      <img src="img/Baxter of california-1.jpg" width="220" height="165" alt="Baxter of california">
+                  </div>
+                  <h3 class="aside">
+                      <span class="desc">Набор для путешествий</span>
+                      <span class="desc-item">"Baxter of california"</span>
+                  </h3>
+                </a>
+                <div class="buy-block">
+                    <span>2900 РУБ.</span>
+                    <a class="btn" href="#">Купить</a>
                 </div>
               </article>
             <article>
               <a href="#">
-                  <figure>
+                  <div class="picture">
                       <img src="img/Baxter of california-2.jpg" width="220" height="165" alt="Baxter of california">
-                  </figure>
-                  <figcaption>
-                      Увлажняющий кондиционер "Baxter of california"
-                  </figcaption>
-                </a>
-                <div class="buy-block ">
-                    <b>750 РУБ.</b>
-                    <a class="btn" href="#">Купить</a>
                   </div>
+                  <h3 class="aside">
+                      <span class="desc">Увлажняющий кондиционер</span>
+                      <span class="desc-item">"Baxter of california"</span>
+                  </h3>
+                </a>
+                <div class="buy-block">
+                    <span>750 РУБ.</span>
+                    <a class="btn" href="#">Купить</a>
+                </div>
               </article>
             <article>
               <a href="#">
-                  <figure>
+                  <div class="picture">
                       <img src="img/Suaevectio.jpg" width="220" height="165" alt="Suaevectio">
-                  </figure>
-                  <figcaption>
-                      Гель для волос "Suaevectio"
-                  </figcaption>
+                  </div>
+                  <h3 class="aside">
+                      <span class="desc">Гель для волос</span>
+                      <span class="desc-item">"Suaevectio"</span>
+                  </h3>
                 </a>
-                <div class="buy-block ">
-                    <b>290 РУБ.</b>
+                <div class="buy-block">
+                    <span>290 РУБ.</span>
                     <a class="btn" href="#">Купить</a>
                   </div>
               </article>
             <article>
               <a href="#">
-                  <figure>
+                  <div class="picture">
                       <img src="img/American crew-1.jpg" width="220" height="165" alt="American crew">
-                  </figure>
-                  <figcaption>
-                      Глина для укладки волос "American crew"
-                  </figcaption>
+                  </div>
+                  <h3 class="aside">
+                      <span class="desc">Глина для укладки волос</span>
+                      <span class="desc-item">"American crew"</span>
+                  </h3>
                 </a>
-                <div class="buy-block ">
-                    <b>500 РУБ.</b>
+                <div class="buy-block">
+                    <span>500 РУБ.</span>
                     <a class="btn" href="#">Купить</a>
                   </div>
               </article>
             <article>
                 <a href="#">
-                    <figure>
+                    <div class="picture">
                         <img src="img/American crew-2.jpg" width="220" height="165" alt="American crew">
-                    </figure>
-                    <figcaption>
-                        Гель для волос "American crew"
-                    </figcaption>
+                    </div>
+                    <h3 class="aside">
+                        <span class="desc">Гель для волос</span>
+                        <span class="desc-item">"American crew"</span>
+                    </h3>
                 </a>
-                <div class="buy-block ">
-                    <b>300 Руб.</b>
+                <div class="buy-block">
+                    <span>300 Руб.</span>
                     <a class="btn" href="#">Купить</a>
                   </div>
               </article>
             <article>
                 <a href="#">
-                  <figure>
+                  <div class="picture">
                       <img src="img/Baxter of california-3.jpg" width="220" height="165" alt="Baxter of california">
-                  </figure>
-                  <figcaption>
-                      Набор для бритья "Baxter of california"
-                  </figcaption>
+                  </div>
+                  <h3 class="aside">
+                      <span class="desc">Набор для бритья</span>
+                      <span class="desc-item">"Baxter of california"</span>
+                  </h3>
                 </a>
-                <div class="buy-block ">
-                    <b>3900 Руб.</b>
+                <div class="buy-block">
+                    <span>3900 Руб.</span>
                     <a class="btn" href="#">Купить</a>
                   </div>
               </article>
