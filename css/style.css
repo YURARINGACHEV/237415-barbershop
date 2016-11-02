@@ -1,56 +1,57 @@
 body {
-    color: #000000;
-    line-height: 18px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: normal;
-    font-size: 14px;
+  color: #000000;
+  line-height: 18px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  font-weight: normal;
+  font-size: 14px;
 }
 
 .container {
-    width: 940px;
-     margin: 0 auto;
-    background: red;
-    padding: 0 10px;
+  width: 940px;
+  margin: 0 auto;
+  background: red;
+  padding: 0 10px;
 }
 
 .main-header {
-    margin-bottom: 54px;
+  margin-bottom: 53px;
 }
 
 .index-logo {
-    float: left;
-    margin-right: 20px;
-    min-height: 70px;
-    background: yellow;
-    width: 140px;
+  float: left;
+  margin-right: 20px;
+  min-height: 70px;
+  background: yellow;
+  width: 140px;
 }
 
 .clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
+  content: "";
+  display: table;
+  clear: both;
 }
 
 .main-navigation {
   /* Только для оформления сетки */
-    float: left;
-    margin-right: 20px;
-    min-height: 70px;
-    width: 620px;
-    background: blue;
+  float: left;
+  margin-right: 20px;
+  min-height: 70px;
+  width: 620px;
+  background: blue;
 }
 
 .user-block {
   /* Только для оформления сетки */
-    float: left;
-    min-height: 70px;
-    width: 140px;
-    background: yellow;
+  float: left;
+  min-height: 70px;
+  width: 140px;
+  background: yellow;
 }
 
+
 .means {
-    min-height: 75px;
-    background: yellow;
+  min-height: 75px;
+  background: yellow;
 }
 
 .produce-product {
@@ -66,13 +67,15 @@ body {
   min-height: 689px;
   width: 710px;
   background: yellow;
+  font-size: 0px;
 }
 
 .main-product article {
   display: inline-block;
-  margin-right: 20px;
+  margin-right: 25px;
   width: 220px;
   vertical-align: top;
+  font-size: 14px;
 }
 
 .main-product article:nth-child(3),
@@ -80,12 +83,28 @@ body {
   margin-right: 0px;
 }
 
-.foto {
-    float: left;
-    min-height: 700px;
-    background: yellow;
-    width: 480px;
-  }
+.main-foto {
+  display: inline-block;
+  width: 470px;
+  min-height: 700px;
+  margin-right: 65px;
+  vertical-align: top;
+  background: yellow;
+}
+
+.main-foto .foto-item {
+  display: inline-block;
+  padding-left: 0;
+  margin-right: 0px;
+}
+
+.main-description {
+  display: inline-block;
+  vertical-align: top;
+  width: 400px;
+  min-height: 700px;
+  background: blue;
+}
 
 .main-footer {
   margin-top: 45px;
@@ -97,7 +116,6 @@ body {
   float: left;
   width: 320px;
   margin-right: 60px;
-  /* Только для оформления сетки */
   min-height: 90px;
   background: yellow;
 }
@@ -105,7 +123,6 @@ body {
 .footer-social {
   float: left;
   width: 180px;
-  /* Только для оформления сетки */
   min-height: 90px;
   background: blue;
 }
@@ -113,10 +130,10 @@ body {
 .footer-copyright {
   float: right;
   width: 180px;
-  /* Только для оформления сетки */
   min-height: 90px;
   background: yellow;
 }
+
 
 
 h1 {
