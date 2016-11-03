@@ -1,161 +1,166 @@
 body {
-  color: #000000;
-  line-height: 18px;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: normal;
-  font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: normal;
+    font-size: 14px;
 }
 
 .container {
-  width: 940px;
-  margin: 0 auto;
-  background: red;
-  padding: 0 10px;
+    width: 940px;
+    margin: 0 auto;
+    background: red;
+    padding: 0 10px;
 }
 
 .main-header {
-  margin-bottom: 53px;
+    margin-bottom: 54px;
 }
 
 .index-logo {
-  float: left;
-  margin-right: 20px;
-  min-height: 70px;
-  background: yellow;
-  width: 140px;
+    float: left;
+    margin-right: 20px;
+    min-height: 70px;
+    background: yellow;
+    width: 140px;
 }
 
 .clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
+    content: "";
+    display: table;
+    clear: both;
 }
 
 .main-navigation {
   /* Только для оформления сетки */
-  float: left;
-  margin-right: 20px;
-  min-height: 70px;
-  width: 620px;
-  background: blue;
+    float: left;
+    margin-right: 20px;
+    min-height: 70px;
+    width: 620px;
+    background: blue;
 }
 
 .user-block {
   /* Только для оформления сетки */
-  float: left;
-  min-height: 70px;
-  width: 140px;
-  background: yellow;
+    float: left;
+    min-height: 70px;
+    width: 140px;
+    background: yellow;
 }
 
 
 .means {
-  min-height: 75px;
-  background: yellow;
+    min-height: 75px;
+    background: yellow;
+    margin-bottom: 40px;
 }
 
 .produce-product {
-  float: left;
-  min-height: 600px;
-  width: 220px;
-  margin-right: 10px;
-  background: yellow;
+    float: left;
+    min-height: 600px;
+    width: 220px;
+    margin-right: 10px;
+    background: yellow;
 }
 
 .main-product {
-  float: left;
-  min-height: 689px;
-  width: 710px;
-  background: yellow;
-  font-size: 0px;
+    float: left;
+    min-height: 689px;
+    width: 710px;
+    background: yellow;
+    font-size: 0;
 }
 
 .main-product article {
-  display: inline-block;
-  margin-right: 25px;
-  width: 220px;
-  vertical-align: top;
-  font-size: 14px;
+    display: inline-block;
+    margin-right: 25px;
+    width: 220px;
+    vertical-align: top;
+    font-size: 14px;
 }
 
 .main-product article:nth-child(3),
 .main-product article:nth-child(6) {
-  margin-right: 0px;
+    margin-right: 0px;
+}
+
+.main-content {
+    padding-top: 3px;
+    background: green;
+    font-size: 0px;
 }
 
 .main-foto {
-  display: inline-block;
-  width: 470px;
-  min-height: 700px;
-  margin-right: 65px;
-  vertical-align: top;
-  background: yellow;
+    display: inline-block;
+    width: 480px;
+    margin-right: 60px;
+    vertical-align: top;
+    background: yellow;
+    box-sizing: border-box;
 }
 
 .main-foto .foto-item {
-  display: inline-block;
-  padding-left: 0;
-  margin-right: 0px;
+    display: inline-block;
+    margin-right: 20px;
 }
 
 .main-description {
-  display: inline-block;
-  vertical-align: top;
-  width: 400px;
-  min-height: 700px;
-  background: blue;
+    display: inline-block;
+    vertical-align: top;
+    width: 400px;
+    background: blue;
+    font-size: 14px;
 }
 
 .main-footer {
-  margin-top: 45px;
-  padding-top: 60px;
-  padding-bottom: 40px;
+    background: green;
+    margin-top: 45px;
+    padding-top: 60px;
+    padding-bottom: 40px;
 }
 
 .footer-contacts {
-  float: left;
-  width: 320px;
-  margin-right: 60px;
-  min-height: 90px;
-  background: yellow;
+    float: left;
+    width: 320px;
+    margin-right: 60px;
+    min-height: 90px;
+    background: yellow;
 }
 
 .footer-social {
-  float: left;
-  width: 180px;
-  min-height: 90px;
-  background: blue;
+    float: left;
+    width: 180px;
+    min-height: 90px;
+    background: blue;
 }
 
 .footer-copyright {
-  float: right;
-  width: 180px;
-  min-height: 90px;
-  background: yellow;
+    float: right;
+    width: 180px;
+    min-height: 90px;
+    background: yellow;
 }
 
-
-
 h1 {
-  color: #000000;
-  line-height: 42px;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 30px;
+    color: #000000;
+    line-height: 42px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
 }
 
 h2 {
-  color: #000000;
-  line-height: 30px;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 24px;
+    color: #000000;
+    line-height: 30px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 h3 {
-  color: #000000;
-  line-height: 18px;
-  font-family: "PT Sans", "Arial", sans-serif;
-  font-weight: bold;
-  font-size: 14px;
+    color: #000000;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
 }
