@@ -6,6 +6,30 @@ body {
     font-size: 14px;
 }
 
+h1 {
+    color: #000000;
+    line-height: 42px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+h2 {
+    color: #000000;
+    line-height: 30px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+h3 {
+    color: #000000;
+    line-height: 18px;
+    font-family: "PT Sans", "Arial", sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+}
+
 .container {
     width: 940px;
     margin: 0 auto;
@@ -73,34 +97,35 @@ body {
 
 .main-product article {
     display: inline-block;
+    vertical-align: top;
     margin-right: 25px;
     width: 220px;
-    vertical-align: top;
     font-size: 14px;
 }
 
 .main-product article:nth-child(3),
 .main-product article:nth-child(6) {
-    margin-right: 0px;
+    margin-right: 0;
 }
 
 .main-content {
     padding-top: 3px;
     background: green;
-    font-size: 0px;
+    font-size: 0;
 }
 
 .main-foto {
     display: inline-block;
+    vertical-align: top;
     width: 480px;
     margin-right: 60px;
-    vertical-align: top;
     background: yellow;
     box-sizing: border-box;
 }
 
 .main-foto .foto-item {
     display: inline-block;
+    vertical-align: top;
     margin-right: 20px;
 }
 
@@ -139,28 +164,4 @@ body {
     width: 180px;
     min-height: 90px;
     background: yellow;
-}
-
-h1 {
-    color: #000000;
-    line-height: 42px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 30px;
-}
-
-h2 {
-    color: #000000;
-    line-height: 30px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 24px;
-}
-
-h3 {
-    color: #000000;
-    line-height: 18px;
-    font-family: "PT Sans", "Arial", sans-serif;
-    font-weight: bold;
-    font-size: 14px;
 }
