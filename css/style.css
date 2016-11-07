@@ -1,9 +1,11 @@
 body {
+    min-width: 960px;
     color: #000000;
     line-height: 18px;
-    font-family: "PT Sans", "Arial", sans-serif;
+    font-family: "PT Sans Narrow", "Arial", sans-serif;
     font-weight: normal;
     font-size: 14px;
+    text-transform: uppercase;
 }
 
 h1 {
@@ -33,20 +35,8 @@ h3 {
 .container {
     width: 940px;
     margin: 0 auto;
-    background: red;
+    background: blue;
     padding: 0 10px;
-}
-
-.main-header {
-    margin-bottom: 54px;
-}
-
-.index-logo {
-    float: left;
-    margin-right: 20px;
-    min-height: 70px;
-    background: yellow;
-    width: 140px;
 }
 
 .clearfix::after {
@@ -55,30 +45,118 @@ h3 {
     clear: both;
 }
 
+.main-header {
+    margin-bottom: 54px;
+    color: #ffffff;
+    background-color: #000000;
+}
+
+.main-navigation ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+
+.main-navigation li {
+    display: inline-block;
+
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.main-navigation a {
+    display: block;
+    padding: 25px 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.main-navigation a:hover {
+    background: #242424;
+}
+
+.index-logo {
+    float: left;
+    width: 140px;
+    font-size: 0;
+}
+
+.index-logo a {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    padding: 27px 20px;
+    padding-top: 23px;
+}
+
 .main-navigation {
-  /* Только для оформления сетки */
     float: left;
     margin-right: 20px;
-    min-height: 70px;
-    width: 620px;
-    background: blue;
 }
 
 .user-block {
-  /* Только для оформления сетки */
-    float: left;
-    min-height: 70px;
-    width: 140px;
-    background: yellow;
+    float: right;
+    max-width: 140px;
 }
 
+.login {
+    position: relative;
+    display: inline-block;
+    padding: 25px 20px;
+    padding-left: 50px;
+    vertical-align: top;
+    font-size: 16px;
+    line-height: 20px;
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.login:hover {
+    background: #242424;
+}
+
+.login::before {
+    content: "";
+    position: absolute;
+    top: 28px;
+    left: 20px;
+    width: 18px;
+    height: 18px;
+    background: #ff0000;
+}
 
 .means {
-    min-height: 75px;
     background: yellow;
     margin-bottom: 40px;
 }
 
+.subject {
+    display: block;
+}
+
+.breadcrumbs ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-size: 0;
+}
+.breadcrumbs li {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 20px;
+    margin-right: 20px;
+}
+
+.breadcrumbs a {
+  display: block;
+  color: #000000;
+  text-decoration: none;
+}
 .produce-product {
     float: left;
     min-height: 600px;
